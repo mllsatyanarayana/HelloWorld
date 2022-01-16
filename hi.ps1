@@ -1,3 +1,4 @@
 $com = $ENV:servers
-GET-service -computername $com | select-object Machinename,Name
+$s=GET-service -computername $com | select-object Machinename,Name
+$s
 
