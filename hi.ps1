@@ -1,1 +1,3 @@
-Write-host "hello world.I am first jenkis build"
+$com = $ENV:servers
+GET-service -computername $com | select-object Machinename,Name
+
