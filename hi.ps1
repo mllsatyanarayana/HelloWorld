@@ -1,4 +1,4 @@
 
-GET-service -computername $com | select-object Machinename,Name
+GET-service -computername localhost | select-object Machinename,Name
 
 
