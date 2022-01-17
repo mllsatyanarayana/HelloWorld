@@ -1,3 +1,4 @@
 hostname
 
-get-service -computername server1.satya.com | select-object Machinename,Name
+$d= get-service -computername dc001.satya.com | select-object Machinename,Name
+$d
