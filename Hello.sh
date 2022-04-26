@@ -1,4 +1,4 @@
 #!/bin/bash
 hostaname
-uptime
+ping google.com -c 5
 uname -a
